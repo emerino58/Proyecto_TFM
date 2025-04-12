@@ -28,8 +28,8 @@ sidebar = html.Div([
     dbc.Nav([
         dbc.NavLink("Equipos", href="/clubes", active="exact"),
         dbc.NavLink("Jugadores", href="/jugadores", active="exact"),
-        dbc.NavLink("Promesas Sub-23", href="/promesas", active="exact"),
         dbc.NavLink("Machine Learning", href="/ml", active="exact"),
+        dbc.NavLink("Promesas Sub-23", href="/promesas", active="exact"),
         dbc.NavLink("Salir", href="/", active="exact"),
     ], vertical=True, pills=True),
 ], style={
